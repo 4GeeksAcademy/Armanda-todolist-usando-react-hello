@@ -1,26 +1,17 @@
 import React from "react";
+import TodoList from "../component/TodoList";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
-//create your first component
-const Home = () => {
-	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
+// aqui creo mi function home que me va renderizar todos mis componente dentro del return
+// Aqui creo mi clase app. que es el body de mi aplicacion.
+function home() {
+ 
+  return (
+    <div className="App">
+      <h1 className="text-center">Todos</h1>
+      <TodoList />
+    </div>
+  );
 };
 
-export default Home;
+export default home;

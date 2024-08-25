@@ -1,12 +1,38 @@
+.App {
+  display: block;
+  text-align: center;
+  background-color: brown;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 100px;
+  margin-left: 400px;
+  border-radius: 20px;
+  border: 1px;
+  box-shadow: 0 0 100px black;
+}
 
-/* 
+.container {
+  position: relative;
+  width: 700px;
+  padding: 20px;
+  border: 1px;
+  box-shadow: 0 0 px;
+  border-radius: 20px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.lista {
+  margin-top: 30px;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+
+button {
+  position: absolute;
+  right: 5px;
+  margin-right: 20px;
+
+}
